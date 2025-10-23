@@ -20,4 +20,18 @@ sudo mn --topo=linear,6 --mac --link tc,bw=25
 
 ### Resultado do comando:
 
-![Screenshot 1](./images/screenshot1.png)
+![Screenshot 1](./screenshot1.png)
+
+## 2. Inspecionando a rede
+Aqui vamos executar os comandos `nodes` , `net` , `dump` e `ifconfig`
+
+- nodes: mostra os nós da rede
+- net: quais portas conectam e os links
+- dump: informação IP e MAC de cada nó
+- ifconfig: detalhes da interce de cada nó
+
+  
+![Screenshot 2](./screenshot2.png)
+![Screenshot 3](./screenshot3.png)
+![Screenshot 4](./screenshot4.png)
+![Screenshot 5](./screenshot5.png)
