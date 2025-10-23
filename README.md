@@ -35,3 +35,10 @@ Aqui vamos executar os comandos `nodes` , `net` , `dump` e `ifconfig`
 ![Screenshot 3](./screenshot3.png)
 ![Screenshot 4](./screenshot4.png)
 ![Screenshot 5](./screenshot5.png)
+
+## 3. Testes de ping
+
+- pingall pra realizar um teste de ping de toda a rede
+- testes isolados de ping, de nó pra nó
+- 
+![Screenshot 6](./screenshot6.png)
