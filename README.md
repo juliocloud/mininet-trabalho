@@ -42,3 +42,19 @@ Aqui vamos executar os comandos `nodes` , `net` , `dump` e `ifconfig`
 - testes isolados de ping, de nó pra nó
 - 
 ![Screenshot 6](./screenshot6.png)
+
+
+## 4. Teste de banda com iPerf
+
+Para verificar a largura de banda efetiva usar o iPerf
+ teste foi realizado entre os nós h1 (cliente) e h2 (servidor).
+
+1. Abrir dois terminais XTerm, um para cada nó:
+   ```xterm h1 h2```
+2. Servidor:
+   ```iperf -s -p 5555 -i 1```
+3. Cliente:
+   ```iperf -c 10.0.0.2 -p 5555 -i 1 -t 15```
+
+O servidor fica escutando enquanto o servidor manda as requisições TCP, utilizando a porta 5555. Especificamos 15 como a quantidade de testes mandada para o servidor
+![Screenshot 7](./screenshot7.png)
